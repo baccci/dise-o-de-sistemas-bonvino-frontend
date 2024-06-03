@@ -1,0 +1,2 @@
+export const CELLAR_API_DELAY_TIME = 1000
+export const NOTIFICATION_DELAY_TIME = 1000

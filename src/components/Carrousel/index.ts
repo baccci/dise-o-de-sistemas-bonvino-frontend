@@ -1,0 +1,1 @@
+export { Carrousel as Slider } from './Carrousel'

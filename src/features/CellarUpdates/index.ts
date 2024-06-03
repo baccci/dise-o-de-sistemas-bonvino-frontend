@@ -1,0 +1,1 @@
+export { CellarsUpdatesCard } from './CellarsUpdatesCard'

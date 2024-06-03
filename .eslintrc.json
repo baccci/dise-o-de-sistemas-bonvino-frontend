@@ -1,3 +1,25 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "standard",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@tanstack/eslint-plugin-query/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react-refresh"
+  ],
+  "rules": {
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 1,
+        "maxEOF": 1,
+        "maxBOF": 1
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": "warn",
+    "space-before-function-paren": "off",
+    "eol-last": "off"
+  }
 }

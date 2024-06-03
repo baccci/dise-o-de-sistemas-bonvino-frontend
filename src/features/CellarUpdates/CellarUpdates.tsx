@@ -1,6 +1,5 @@
 import React from 'react'
 import { useCellarsUpdatesContext } from './context'
-import getCellarUpdate from '@/services/getCellarUpdate'
 import { DataState } from './types'
 import { DATA_STATES } from './constants'
 import { Button } from '@/components/Button'
@@ -12,6 +11,7 @@ import { Skeleton } from '@/components/Skeleton'
 import { toast } from 'sonner'
 import { NOTIFICATION_DELAY_TIME } from '@/constants/delays'
 import { Cellar } from '@/Models/Cellar'
+import getCellarUpdate from '@/services/getCellarUpdate'
 import {
   type QueryObserverResult,
   type RefetchOptions,

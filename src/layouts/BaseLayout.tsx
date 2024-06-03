@@ -19,7 +19,7 @@ export const BaseLayout: React.FC<BaseLayoutProps> = ({ children, logoHref, clas
       <main className={cn('px-8 sm:px-4', className)} {...rest}>
         {children}
       </main>
-      <Toaster position='bottom-center' />
+      <Toaster position='top-center' />
     </div>
   )
 }

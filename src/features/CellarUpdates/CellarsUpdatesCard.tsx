@@ -31,7 +31,7 @@ export const CellarsUpdatesCard: React.FC<CellarsUpdatesCardProps> = () => {
 
   return (
     <Provider value={context}>
-      <div className='p-4 border border-border mt-12 rounded-xl sm:max-w-[350px] mx-auto w-full'>
+      <div className='p-4 border border-border mt-12 rounded-xl sm:max-w-[350px] mx-auto w-full mb-4'>
         <CardCarrousel>
           <header>
             <h2 className='font-semibold'>Lista de bodegas</h2>
